@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "4e4ad637-4dde-4f80-b6c8-f6289ea558a3",
+            "Value": {
+                "id": "d5451cfc-1101-4029-bcd7-2e44b2ade3a5",
+                "resourcePath": "datafiles_yy\\savedata\\markers.ini.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "5723ca8c-fb2d-4d84-9300-d5cb710801ea",
             "Value": {
                 "id": "e5b588dc-457b-4c51-949a-f1545edf4fe7",
@@ -403,6 +411,14 @@
             "Value": {
                 "id": "9485dc9a-ccdf-438a-b9ca-3da1a94cbdb8",
                 "resourcePath": "views\/d1f9136b-d10d-4bd9-af89-0ce82b74122c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d39b5965-98d1-4c83-8dfd-d599d6552e59",
+            "Value": {
+                "id": "6705c17c-b1b9-41eb-8953-eabc61d5f2b8",
+                "resourcePath": "views\\d39b5965-98d1-4c83-8dfd-d599d6552e59.yy",
                 "resourceType": "GMFolder"
             }
         },
