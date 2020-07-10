@@ -68,5 +68,25 @@ if (mouse_check_button_pressed(mb_left))
 			case 2: var art = instance_find(obj_article2, 0); art.highlighted = true; break;
 			case 3: var art = instance_find(obj_article3, 0); art.highlighted = true; break;
 		}
+		global.autosaving = true;
+		ini_open("assets/ini/articles.ini");
+		var m_label = ini_read_string("day" + string(global.day), "art" + string(global.focus) + "marker_label", "");
+		var m_name = ini_read_string("day" + string(global.day), "art" + string(global.focus) + "marker_name", "");
+		var m_description = ini_read_string("day" + string(global.day), "art" + string(global.focus) + "marker_description", "");
+		var m_type = ini_read_string("day" + string(global.day), "art" + string(global.focus) + "marker_type", "");
+		var m_x = ini_read_string("day" + string(global.day), "art" + string(global.focus) + "marker_x", "");
+		var m_y = ini_read_string("day" + string(global.day), "art" + string(global.focus) + "marker_y", "");
+		ini_close();
+		ini_open("save/markers.ini");
+		var i = floor(ini_read_real("info", "amount", 0));
+		ini_write_real("info", "amount", i + 1);
+		ini_write_string("m" + string(i + 1), "label", m_label);
+		ini_write_string("m" + string(i + 1), "name", m_name);
+		ini_write_string("m" + string(i + 1), "description", m_description);
+		ini_write_string("m" + string(i + 1), "type", m_type);
+		ini_write_string("m" + string(i + 1), "x", m_x);
+		ini_write_string("m" + string(i + 1), "y", m_y);
+		ini_close();
+		global.autosaving = false;
 	}
 }

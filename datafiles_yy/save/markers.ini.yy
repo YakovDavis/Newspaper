@@ -8,7 +8,7 @@
     "exportAction": 0,
     "exportDir": "",
     "fileName": "markers.ini",
-    "filePath": "datafiles\\savedata",
+    "filePath": "datafiles\\save",
     "freeData": false,
     "origName": "",
     "overwrite": false,

@@ -178,7 +178,7 @@
             "Key": "4e4ad637-4dde-4f80-b6c8-f6289ea558a3",
             "Value": {
                 "id": "d5451cfc-1101-4029-bcd7-2e44b2ade3a5",
-                "resourcePath": "datafiles_yy\\savedata\\markers.ini.yy",
+                "resourcePath": "datafiles_yy\\save\\markers.ini.yy",
                 "resourceType": "GMIncludedFile"
             }
         },

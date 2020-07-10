@@ -7,7 +7,7 @@
         "4e4ad637-4dde-4f80-b6c8-f6289ea558a3"
     ],
     "filterType": "GMIncludedFile",
-    "folderName": "savedata",
+    "folderName": "save",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
