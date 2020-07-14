@@ -1,6 +1,3 @@
-draw_set_color(c_white);
-draw_point(50, 50);
-
 if (global.inspection_mode == "magnifying")
 {
 	if (global.magnifying)
