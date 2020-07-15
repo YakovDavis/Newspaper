@@ -273,6 +273,34 @@
             "value": "0",
             "varName": "dust_hires_surf",
             "varType": 0
+        },
+        {
+            "id": "9f85e960-60c3-467a-ba2b-6aee4fd687f4",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "lowres_sprite",
+            "varType": 0
+        },
+        {
+            "id": "1f004300-9d3f-4f2f-99e2-a08f1e9e75b1",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "hires_sprite",
+            "varType": 0
         }
     ],
     "solid": false,

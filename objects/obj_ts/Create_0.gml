@@ -1,3 +1,8 @@
+/// @description: Modify this for different artifacts
+
+lowres_sprite = spr_ts_lowres;
+hires_sprite = spr_ts_hires;
+
 dust_surf = surface_create(128, 128);
 surface_set_target(dust_surf);
 draw_clear_alpha(c_white, 1);
