@@ -21,7 +21,7 @@ if (global.inspection_mode == "dusting")
 	}
 	
 	surface_set_target(dust_hires_surf);
-	draw_circle_color(mouse_x - x, mouse_y - y, 8, c_black, c_black, false)
+	draw_circle_color((mouse_x - x) * 4 + border_size, (mouse_y - y) * 4 + border_size, 32, c_black, c_black, false)
 	surface_reset_target();
 }
 
