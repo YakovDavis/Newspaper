@@ -231,6 +231,48 @@
             "value": "0",
             "varName": "mouse_on",
             "varType": 3
+        },
+        {
+            "id": "1abded9b-8243-4816-9871-282677e6aaa9",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "dust_hires_map",
+            "varType": 0
+        },
+        {
+            "id": "68f7ba6a-2789-49be-a413-8afa1a674fb8",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "dust_hires_sprite",
+            "varType": 0
+        },
+        {
+            "id": "c2f95987-a41f-4505-9acf-8f1292295ce5",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "dust_hires_surf",
+            "varType": 0
         }
     ],
     "solid": false,
