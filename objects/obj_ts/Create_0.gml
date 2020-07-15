@@ -22,3 +22,6 @@ surface_reset_target();
 metal_buffer = buffer_create(128*128*4, buffer_fixed, 1);
 buffer_get_surface(metal_buffer, metal_surf, 0, 0, 0);
 surface_free(metal_surf);
+
+global.drop_color = c_white;
+global.drop_present = false;

@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "045b56a4-a53e-4ada-b13e-ef63ebfe80bd",
+            "Value": {
+                "id": "11be1ba4-664b-4c12-bfdf-fd8d34f0c49e",
+                "resourcePath": "objects\\obj_liquid_drop\\obj_liquid_drop.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "07d6f7ed-d3bc-489d-b482-9a260cd097ac",
             "Value": {
                 "id": "9ed2b23c-570e-4aa0-9e53-ca7bed2bd5e9",
@@ -100,6 +108,14 @@
                 "id": "67fa8387-fb2a-43c6-8e9e-de88b00d6761",
                 "resourcePath": "objects\/obj_art_save\/obj_art_save.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "237693cc-a053-4479-aa62-41555cc1ee44",
+            "Value": {
+                "id": "5c7b7bb9-40ce-4055-96c0-27ce5c88ce45",
+                "resourcePath": "sprites\\spr_rusting_brush_small\\spr_rusting_brush_small.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -171,6 +187,14 @@
             "Value": {
                 "id": "ab204b08-0541-4085-97c4-68b1a091ba72",
                 "resourcePath": "views\/3c6241cd-d731-46f1-891d-60cc8742a356.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3dd37b90-0a36-4efb-b805-17c9bd7d93eb",
+            "Value": {
+                "id": "73833bfb-1171-4113-abde-54145277b954",
+                "resourcePath": "views\\3dd37b90-0a36-4efb-b805-17c9bd7d93eb.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -267,6 +291,14 @@
             "Value": {
                 "id": "84546d79-bc3a-4024-9fd2-eca360a2d04b",
                 "resourcePath": "objects\/obj_article1\/obj_article1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5ed964a3-ef9a-4158-9c8a-ad86e174bf87",
+            "Value": {
+                "id": "7365a00a-571b-469c-8c27-b4d04c390311",
+                "resourcePath": "objects\\obj_btn_rusting_brush\\obj_btn_rusting_brush.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -391,6 +423,14 @@
             }
         },
         {
+            "Key": "92089126-522a-42b3-af78-9dfde6bb0645",
+            "Value": {
+                "id": "b2774317-366a-4d3b-905a-7b09d64f8e79",
+                "resourcePath": "views\\92089126-522a-42b3-af78-9dfde6bb0645.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "923d7d03-f481-4c49-8051-d8e1531d3a6a",
             "Value": {
                 "id": "41ec30d2-1c67-4668-9cff-2f9eb85ca917",
@@ -431,14 +471,6 @@
             }
         },
         {
-            "Key": "9fb880f2-970c-443a-a0bb-0f06a302736f",
-            "Value": {
-                "id": "fd5fcdb4-eb48-4fb3-8061-a68c2c0a374b",
-                "resourcePath": "sprites\/spr_btn_tool1\/spr_btn_tool1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "a19d47a0-d8bb-411e-8829-031e93329dd1",
             "Value": {
                 "id": "c8b310e0-b6ac-4df0-9ec0-0fdff76adbca",
@@ -450,7 +482,7 @@
             "Key": "a2c02d12-a614-4add-8718-6b0969ae541d",
             "Value": {
                 "id": "26301625-8304-400e-9fca-9c920425312e",
-                "resourcePath": "sprites\/spr_dusting_brush\/spr_dusting_brush.yy",
+                "resourcePath": "sprites\\spr_dusting_brush_small\\spr_dusting_brush_small.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -519,6 +551,14 @@
             }
         },
         {
+            "Key": "bef61304-6074-4dde-be16-3ed3d61c04a5",
+            "Value": {
+                "id": "10027f3a-41ea-44bf-b4ab-84cfb7cbdb72",
+                "resourcePath": "sprites\\spr_metal_tester_small\\spr_metal_tester_small.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c21d8d17-9a17-4240-8046-0143bbf8d294",
             "Value": {
                 "id": "6578bf4f-7519-49ee-9eb2-56aa78ad6661",
@@ -547,6 +587,14 @@
             "Value": {
                 "id": "01750314-60a2-4269-841c-0a99486e0909",
                 "resourcePath": "objects\/obj_autosave\/obj_autosave.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c8c18cff-b2f4-463c-8f7a-7ed4ffe5eb0c",
+            "Value": {
+                "id": "4e74dd0c-6b27-4870-983b-784a03ec1784",
+                "resourcePath": "objects\\obj_btn_metal_tester\\obj_btn_metal_tester.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -631,6 +679,14 @@
             }
         },
         {
+            "Key": "eb8c2704-b2c7-499d-ad55-f7ae23997c76",
+            "Value": {
+                "id": "d440b652-eb53-4f59-9fef-33750c605616",
+                "resourcePath": "objects\\obj_tools_init\\obj_tools_init.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ed4cff0c-02da-4dc1-9df4-b310f44dd073",
             "Value": {
                 "id": "abc3f5a9-c79a-4eac-b21d-e6e6458cca2a",
@@ -652,6 +708,14 @@
                 "id": "316dedb7-470a-4675-b790-b9988f6ad254",
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f7c3c969-a572-4afb-9292-0262897281c1",
+            "Value": {
+                "id": "ffef7f4e-08d3-4c6d-a33c-300afc0017b5",
+                "resourcePath": "sprites\\spr_liquid_drop\\spr_liquid_drop.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -12,5 +12,15 @@ if (global.inspection_mode == "magnifying")
 
 if (global.inspection_mode == "dusting")
 {
-	draw_sprite(spr_dusting_brush, -1, round(mouse_x) - 6, round(mouse_y) - 6);
+	draw_sprite(spr_dusting_brush_small, -1, round(mouse_x) - 6, round(mouse_y) - 6);
+}
+
+if (global.inspection_mode == "rusting")
+{
+	draw_sprite(spr_rusting_brush_small, -1, round(mouse_x) - 6, round(mouse_y) - 6);
+}
+
+if (global.inspection_mode == "metal")
+{
+	draw_sprite(spr_metal_tester_small, -1, round(mouse_x), round(mouse_y));
 }

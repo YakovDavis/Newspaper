@@ -1,0 +1,1 @@
+draw_sprite_ext(spr_liquid_drop, -1, x, y, 1, 1, 0, global.drop_color, 1);

@@ -65,13 +65,13 @@
             "m_owner": "923d7d03-f481-4c49-8051-d8e1531d3a6a"
         },
         {
-            "id": "8e59dfb1-9f37-4338-a3f7-f39acf6e0dc8",
+            "id": "d341d6b2-1d95-42bc-a6e5-b7799c18d141",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
+            "enumb": 4,
+            "eventtype": 6,
             "m_owner": "923d7d03-f481-4c49-8051-d8e1531d3a6a"
         }
     ],
@@ -203,34 +203,6 @@
             "value": "0",
             "varName": "metal_buffer",
             "varType": 0
-        },
-        {
-            "id": "edccc544-83fa-4f93-847b-1d9a97247b6c",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "$FFFFFFFF",
-            "varName": "metal_color",
-            "varType": 7
-        },
-        {
-            "id": "684ef91d-bef5-4f48-a2e0-ee5ac8918780",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "mouse_on",
-            "varType": 3
         },
         {
             "id": "1abded9b-8243-4816-9871-282677e6aaa9",
