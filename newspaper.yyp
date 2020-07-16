@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "59b2d308-2246-41d7-a919-e5a4a25528df",
+            "Value": {
+                "id": "e72ebe4a-4809-4126-83e7-0f4ff8e27454",
+                "resourcePath": "views\\59b2d308-2246-41d7-a919-e5a4a25528df.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "5b18cd7c-4dfa-4559-aaa6-643a7464e567",
             "Value": {
                 "id": "6f38df03-40d9-45aa-a9eb-47eecc68001d",
@@ -708,6 +716,14 @@
                 "id": "316dedb7-470a-4675-b790-b9988f6ad254",
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f4492275-4dee-4300-999a-5163a0c4c04e",
+            "Value": {
+                "id": "796288ef-e2e2-41df-8316-b7ebbda8b029",
+                "resourcePath": "objects\\obj_dusting_brush\\obj_dusting_brush.yy",
+                "resourceType": "GMObject"
             }
         },
         {
