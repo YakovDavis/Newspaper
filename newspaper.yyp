@@ -79,14 +79,6 @@
             }
         },
         {
-            "Key": "15caeb42-5ed9-4fdb-a115-4e222c3e7f18",
-            "Value": {
-                "id": "dfef8bfe-3539-4ec7-834a-5d9919e5c63e",
-                "resourcePath": "sprites\/spr_ts_lowres_rust\/spr_ts_lowres_rust.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "1dec2572-4e10-49a3-a715-32d544e6ed78",
             "Value": {
                 "id": "bb9a9dd6-cbe2-405c-8a30-62d2f7643805",
@@ -427,6 +419,14 @@
             "Value": {
                 "id": "3d596ea8-8703-46b2-8441-4b155845f2f5",
                 "resourcePath": "sprites\/spr_pagenext\/spr_pagenext.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8e7c9959-ca23-428f-926a-0c56191556e0",
+            "Value": {
+                "id": "639ff9f7-e06e-42c1-affe-f2ce999a4b43",
+                "resourcePath": "sprites\\spr_ts_lowres_rust\\spr_ts_lowres_rust.yy",
                 "resourceType": "GMSprite"
             }
         },

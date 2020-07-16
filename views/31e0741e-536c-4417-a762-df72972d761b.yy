@@ -11,7 +11,7 @@
         "1dec2572-4e10-49a3-a715-32d544e6ed78",
         "7eeba2e9-8ced-45ca-8eeb-96bfcc7ec5ca",
         "caa7f549-cf56-4784-aabb-db3d1d3921e4",
-        "15caeb42-5ed9-4fdb-a115-4e222c3e7f18"
+        "8e7c9959-ca23-428f-926a-0c56191556e0"
     ],
     "filterType": "GMSprite",
     "folderName": "ts",

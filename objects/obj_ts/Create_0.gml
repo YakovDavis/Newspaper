@@ -15,6 +15,18 @@ draw_clear_alpha(c_white, 1);
 surface_reset_target();
 dust_hires_sprite = sprite_duplicate(spr_ts_hires_dust);
 
+rust_surf = surface_create(128, 128);
+surface_set_target(rust_surf);
+draw_clear_alpha(c_white, 1);
+surface_reset_target();
+rust_sprite = sprite_duplicate(spr_ts_lowres_rust);
+
+rust_hires_surf = surface_create(512, 512);
+surface_set_target(rust_hires_surf);
+draw_clear_alpha(c_white, 1);
+surface_reset_target();
+rust_hires_sprite = sprite_duplicate(spr_ts_hires_rust);
+
 var metal_surf = surface_create(128, 128);
 surface_set_target(metal_surf);
 draw_sprite(spr_ts_metalmap, -1, 0, 0);
