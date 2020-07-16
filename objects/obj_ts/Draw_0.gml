@@ -30,20 +30,24 @@ if (global.inspection_mode == "magnifying")
 	
 	if (global.magnifying)
 	{
-		draw_sprite_part(hires_sprite, -1, tmp_x - magn_center_margins - magn_size_center / 2 + border_size, tmp_y - magn_center_margins - magn_size_center / 2 + border_size, magn_size_center + magn_center_margins * 2, magn_size_center + magn_center_margins * 2, mouse_x - magn_size_center / 2 - magn_center_margins, mouse_y - magn_size_center / 2 - magn_center_margins);
-		draw_sprite_part(hires_sprite, -1, tmp_x - magn_size_center / 2 + border_size - (magn_size - magn_size_center) / 2, tmp_y  - magn_size_center / 2 + border_size, (magn_size - magn_size_center) / 2, magn_size_center, mouse_x - magn_size_center / 2 - (magn_size - magn_size_center) / 2, mouse_y - magn_size_center / 2);
-		draw_sprite_part(hires_sprite, -1, tmp_x- magn_size_center / 2 + border_size + magn_size_center, tmp_y  - magn_size_center / 2 + border_size, (magn_size - magn_size_center) / 2, magn_size_center, mouse_x - magn_size_center / 2 + magn_size_center, mouse_y - magn_size_center / 2);
-		draw_sprite_part(hires_sprite, -1, tmp_x - magn_size_center / 2 + border_size, tmp_y  - magn_size_center / 2 + border_size - (magn_size - magn_size_center) / 2, magn_size_center, (magn_size - magn_size_center) / 2, mouse_x - magn_size_center / 2, mouse_y - magn_size_center / 2 - (magn_size - magn_size_center) / 2);
-		draw_sprite_part(hires_sprite, -1, tmp_x - magn_size_center / 2 + border_size, tmp_y  - magn_size_center / 2 + border_size + magn_size_center, magn_size_center, (magn_size - magn_size_center) / 2, mouse_x - magn_size_center / 2, mouse_y - magn_size_center / 2 + magn_size_center);
+		var strop = border_size - magn_size / 2;
+            var strop_2 = border_size - magn_size_center / 2;
+            var wasr = magn_size_center + magn_center_margins * 2;
+            var sadf = magn_size_center / 2 + magn_center_margins;
+		draw_sprite_part(hires_sprite, -1, tmp_x - magn_center_margins + strop_2 , tmp_y + strop_2 - magn_center_margins , wasr, wasr, mouse_x - sadf , mouse_y -sadf);
+		draw_sprite_part(hires_sprite, -1, tmp_x + strop , tmp_y + strop_2 , magn_size/2 - sadf , magn_size_center, mouse_x - magn_size / 2, mouse_y - magn_size_center / 2);
+		draw_sprite_part(hires_sprite, -1, tmp_x+ border_size +sadf, tmp_y + strop_2, magn_size / 2 - sadf, magn_size_center, mouse_x + sadf, mouse_y - magn_size_center / 2);
+		draw_sprite_part(hires_sprite, -1, tmp_x + strop_2, tmp_y  + strop, magn_size_center , magn_size / 2 - sadf, mouse_x - magn_size_center / 2, mouse_y - magn_size / 2);
+		draw_sprite_part(hires_sprite, -1, tmp_x + strop_2, tmp_y  + border_size + sadf, magn_size_center, magn_size / 2 - sadf, mouse_x - magn_size_center / 2, mouse_y + sadf );
 		
 		dust_hires_mask = sprite_create_from_surface(dust_hires_surf, 0, 0, 460, 370, false, false, 0, 0);
 		sprite_set_alpha_from_sprite(dust_hires_sprite, dust_hires_mask);
 		
-		draw_sprite_part(dust_hires_sprite, -1, tmp_x - magn_center_margins - magn_size_center / 2 + border_size, tmp_y - magn_center_margins - magn_size_center / 2 + border_size, magn_size_center + magn_center_margins * 2, magn_size_center + magn_center_margins * 2, mouse_x - magn_size_center / 2 - magn_center_margins, mouse_y - magn_size_center / 2 - magn_center_margins);
-		draw_sprite_part(dust_hires_sprite, -1, tmp_x - magn_size_center / 2 + border_size - (magn_size - magn_size_center) / 2, tmp_y  - magn_size_center / 2 + border_size, (magn_size - magn_size_center) / 2 - magn_center_margins, magn_size_center, mouse_x - magn_size_center / 2 - (magn_size - magn_size_center) / 2, mouse_y - magn_size_center / 2);
-		draw_sprite_part(dust_hires_sprite, -1, tmp_x - magn_size_center / 2 + border_size + magn_center_margins, tmp_y  - magn_size_center / 2 + border_size, (magn_size - magn_size_center) / 2 - magn_center_margins, magn_size_center, mouse_x - magn_size_center / 2 + magn_size_center + magn_center_margins, mouse_y - magn_size_center / 2);
-		draw_sprite_part(dust_hires_sprite, -1, tmp_x - magn_size_center / 2 + border_size, tmp_y  - magn_size_center / 2 + border_size - (magn_size - magn_size_center) / 2, magn_size_center, (magn_size - magn_size_center) / 2 - magn_center_margins, mouse_x - magn_size_center / 2, mouse_y - magn_size_center / 2 - (magn_size - magn_size_center) / 2);
-		draw_sprite_part(dust_hires_sprite, -1, tmp_x - magn_size_center / 2 + border_size, tmp_y  - magn_size_center / 2 + border_size + magn_size_center + magn_center_margins, magn_size_center, (magn_size - magn_size_center) / 2 - magn_center_margins, mouse_x - magn_size_center / 2, mouse_y - magn_size_center / 2 + magn_size_center + magn_center_margins);
+		draw_sprite_part(dust_hires_sprite, -1, tmp_x - magn_center_margins + strop_2 , tmp_y + strop_2 - magn_center_margins , wasr, wasr, mouse_x - sadf , mouse_y -sadf);
+		draw_sprite_part(dust_hires_sprite, -1, tmp_x + strop , tmp_y + strop_2 , magn_size/2 - sadf , magn_size_center, mouse_x - magn_size / 2, mouse_y - magn_size_center / 2);
+		draw_sprite_part(dust_hires_sprite, -1, tmp_x+ border_size +sadf, tmp_y + strop_2, magn_size / 2 - sadf, magn_size_center, mouse_x + sadf, mouse_y - magn_size_center / 2);
+		draw_sprite_part(dust_hires_sprite, -1, tmp_x + strop_2, tmp_y  + strop, magn_size_center , magn_size / 2 - sadf, mouse_x - magn_size_center / 2, mouse_y - magn_size / 2);
+		draw_sprite_part(dust_hires_sprite, -1, tmp_x + strop_2, tmp_y  + border_size + sadf, magn_size_center, magn_size / 2 - sadf, mouse_x - magn_size_center / 2, mouse_y + sadf );
 		
 		sprite_delete(dust_hires_mask);
 	}
