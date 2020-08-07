@@ -4,7 +4,8 @@
     "mvc": "1.1",
     "name": "59b2d308-2246-41d7-a919-e5a4a25528df",
     "children": [
-        "f4492275-4dee-4300-999a-5163a0c4c04e"
+        "f4492275-4dee-4300-999a-5163a0c4c04e",
+        "dc1eacc0-141a-4389-81e1-dce6d1ba2987"
     ],
     "filterType": "GMObject",
     "folderName": "cursors",

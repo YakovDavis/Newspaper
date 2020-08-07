@@ -65,6 +65,20 @@
             "value": "0",
             "varName": "dusting_brush",
             "varType": 0
+        },
+        {
+            "id": "5d9c2ebe-a3a9-4685-9544-50e09fe513e5",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "rusting_brush",
+            "varType": 0
         }
     ],
     "solid": false,
