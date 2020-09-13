@@ -1,0 +1,10 @@
+{
+	"R11DS00" : {
+		"label" : "creeper",
+		"x" : "10",
+		"y" : "10",
+		"type" : "karaoke",
+		"name" : "Creeper",
+		"description" : "bruh"
+	}
+}
