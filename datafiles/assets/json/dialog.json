@@ -7,6 +7,8 @@
 		"answers" : {
 			"positive" : {
 				"text" : "Я всегда это делал",
+				"changes_attribute" : "happiness",
+				"change" : "+10",
 				"go_to" : "001"
 				},
 			"negative" : {

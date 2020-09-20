@@ -16,9 +16,9 @@ file_text_close(f);
 current_dialog_map = ds_map_find_value(json_decode(s), global.dialog_part);
 
 large_bubble_text = ds_map_find_value(current_dialog_map, "text");
-if (string_length(large_bubble_text) / 30 > 2)
+if (string_length(large_bubble_text) / 2 > 2)
 {
-	large_bubble_lines = ceil(string_length(large_bubble_text) / 30);
+	large_bubble_lines = ceil(string_length(large_bubble_text) / 25);
 }
 has_answers = (ds_map_find_value(current_dialog_map, "has_answers") == "true");
 
@@ -26,19 +26,19 @@ if (has_answers)
 {
 	var answers_map = ds_map_find_value(current_dialog_map, "answers");
 	answer_1_text = ds_map_find_value(ds_map_find_value(answers_map, "positive"), "text");
-	if (string_length(answer_1_text) / 6 > 2)
+	if (string_length(answer_1_text) / 5 > 2)
 	{
 		answer_1_length = ceil(string_length(answer_1_text) / 5);
 	}
 	answer_2_text = ds_map_find_value(ds_map_find_value(answers_map, "negative"), "text");
-	if (string_length(answer_2_text) / 6 > 2)
+	if (string_length(answer_2_text) / 5 > 2)
 	{
-		answer_2_length = ceil(string_length(answer_2_text) / 6);
+		answer_2_length = ceil(string_length(answer_2_text) / 5);
 	}
 	answer_3_text = ds_map_find_value(ds_map_find_value(answers_map, "neutral"), "text");
-	if (string_length(answer_3_text) / 6 > 2)
+	if (string_length(answer_3_text) / 5 > 2)
 	{
-		answer_3_length = ceil(string_length(answer_3_text) / 6);
+		answer_3_length = ceil(string_length(answer_3_text) / 5);
 	}
 }
 

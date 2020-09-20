@@ -17,7 +17,7 @@ if (large_bubble_lines > 2)
 }
 draw_sprite_stretched(spr_large_bubble, 2, tmp_x, tmp_y + 78 * scaling_factor * (large_bubble_lines - 1), 831 * scaling_factor, 78 * scaling_factor);
 
-draw_text_ext_transformed(tmp_x + 90 * scaling_factor, tmp_y + 30 * scaling_factor, large_bubble_text_draw, 60 * scaling_factor, 750 * scaling_factor, scaling_factor, scaling_factor, 0);
+draw_text_ext_transformed(tmp_x + 90 * scaling_factor, tmp_y + 30 * scaling_factor, large_bubble_text_draw, 60 * scaling_factor, 720 * scaling_factor, scaling_factor, scaling_factor, 0);
 
 if (has_answers)
 {

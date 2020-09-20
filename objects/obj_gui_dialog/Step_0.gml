@@ -158,7 +158,7 @@ if (animation_status == "fly_away")
 	}
 }
 
-if (animation_status == "dots")
+if ((animation_status == "dots")and(has_answers))
 {
 	answer_1_selected = ((mouse_x >  (1 - answer_1_length * 0.084) * 480 - 26)and(mouse_x < 455)and(mouse_y > answer_1_y * 270 - 3)and(mouse_y < answer_1_y * 270 + 20));
 	answer_2_selected = ((mouse_x >  (1 - answer_2_length * 0.084) * 480 - 26)and(mouse_x < 455)and(mouse_y > answer_2_y * 270 - 3)and(mouse_y < answer_2_y * 270 + 20));
