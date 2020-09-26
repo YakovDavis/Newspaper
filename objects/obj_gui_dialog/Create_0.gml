@@ -5,7 +5,7 @@ surface_set_target(gui_surf);
 draw_clear_alpha(c_white, 0);
 surface_reset_target();
 
-var f = file_text_open_read("assets/json/" + global.dialog_file + ".json");
+var f = file_text_open_read("assets/json/dialogs/" + global.dialog_file + ".json");
 var s = "";
 while (!file_text_eof(f))
 {

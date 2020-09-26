@@ -199,6 +199,13 @@
     {"CopyToMask":-1,"filePath":"datafiles/assets/json","resourceVersion":"1.0","name":"dialog.json","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles/assets/json","resourceVersion":"1.0","name":"markers.json","resourceType":"GMIncludedFile",},
     {"CopyToMask":-1,"filePath":"datafiles/assets/json","resourceVersion":"1.0","name":"artefacts.json","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles/assets/ini","resourceVersion":"1.0","name":"articles.ini","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles/assets/json/dialogs","resourceVersion":"1.0","name":"dialog.json","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles/assets/json","resourceVersion":"1.0","name":"artefacts.json","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles/assets/json","resourceVersion":"1.0","name":"characters.json","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles/assets/json","resourceVersion":"1.0","name":"days.json","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles/assets/json","resourceVersion":"1.0","name":"markers.json","resourceType":"GMIncludedFile",},
+    {"CopyToMask":-1,"filePath":"datafiles/save","resourceVersion":"1.0","name":"markers.ini","resourceType":"GMIncludedFile",},
   ],
   "MetaData": {
     "IDEVersion": "2.3.0.529",
