@@ -1,0 +1,10 @@
+{
+	"pm" : {
+		"name" : "Почтальон",
+		"description" : "bruh",
+		"resourse_id" : "0",
+		"starting_parameters" : {
+            "happiness" : "0"
+            }
+		}
+}

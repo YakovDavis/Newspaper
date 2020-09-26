@@ -45,7 +45,6 @@ if (has_answers)
 answer_1_highpoint += (large_bubble_lines - 2) * 0.08;
 answer_2_highpoint += (large_bubble_lines - 2) * 0.08;
 answer_3_highpoint += (large_bubble_lines - 2) * 0.08;
-dots_highpoint += (large_bubble_lines - 2) * 0.08;
 
 animation_status = "lb_bubble";
 increase = 0.5;
